@@ -28,6 +28,12 @@ p {
   font-weight: normal;
 }
 
+nav li{
+  display:inline;
+  list-style: none;
+  color: grey;
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -46,6 +52,24 @@ p {
   font-weight: normal;
   line-height: 2;
   font-size: 24px;
+}
+
+.about-section-content{
+  margin:30px;
+}
+
+.about-section{
+   padding: 160px 20px;
+}
+
+.about-section h1{
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2{
+  font-size: 20px;
+  font-family: var(--default-font-family);
 }
 
 .btn-branding {
