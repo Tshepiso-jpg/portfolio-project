@@ -27,11 +27,24 @@ h1 {
 p {
   font-weight: normal;
 }
+.logo{
+  font-size: 30px;
+}
+
+nav{
+  padding: 20px 0;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+}
 
 nav li{
   display:inline;
   list-style: none;
   color: grey;
+  line-height: 30px;
 }
 
 .hero {
